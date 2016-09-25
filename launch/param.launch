@@ -1,0 +1,18 @@
+<launch>
+	<node pkg="beginner_tutorials" name="listening" type="listener_param">
+    </node>
+	<node pkg="beginner_tutorials" name="talking" type="talker_param" args="$(arg a)">
+    <param name="count" value="$(arg a)"/>
+    </node>
+</launch>
+
+<!-- In this we are providing contant value of parameter equal to 50...  While in the above one we have to provide the value through command line-->
+<!--
+<launch>
+	<node pkg="beginner_tutorials" name="listening" type="listener_param">
+    </node>
+	<node pkg="beginner_tutorials" name="talking" type="talker_param">
+    <param name="count" value="50"/>
+    </node>
+</launch>
+-->

@@ -1,0 +1,16 @@
+float64 acc_x
+float64 acc_y
+float64 acc_z
+float64 vel_x
+float64 vel_y
+float64 vel_z
+float64 w_x
+float64 w_y
+float64 w_z
+float64 theta_x
+float64 theta_y
+float64 theta_z
+string text
+int32 data1
+int32 data2
+float64 temp
